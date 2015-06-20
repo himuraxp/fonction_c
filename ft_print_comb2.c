@@ -2,8 +2,9 @@ int ft_putchar(char c);
 
 void ft_print_comb2(void)
 {
-	char table[4] = {0, 0, 0, 1};
+	char table[4];
 
+	tabe[4] = {0, 0, 0, 1};
 	while (!((table[0] == 9) && (table[1] == 9)))
 	{
 		ft_putchar(table[0] + 48);
